@@ -16,6 +16,7 @@ public class test {
 	driver.get("https://facebook.com");
 	WebElement loginbtn = driver.findElement(By.xpath("//input[@value = 'Log In']"));
 	loginbtn.click();
+	System.out.println("Tanu");
 	
 	}
 	
